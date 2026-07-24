@@ -12,6 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" />  
+      </head>
       <body>
         <Provider store={store}>
           <Navbar />
