@@ -5,6 +5,8 @@
   max-width: 420px;
   width: 100%;
   margin-bottom: 1.5rem;
+  /*margin-left: 81.5rem; */
+  display: block;
 }
  
 .search-input {
@@ -23,7 +25,7 @@
  
 .search-clear {
   position: absolute;
-  right: 0.6rem;
+  right: -3rem;
   top: 50%;
   transform: translateY(-50%);
   background: none;
@@ -36,4 +38,8 @@
  
 .search-clear:hover {
   color: #8a5a2f;
+}
+
+.product-count{
+  text-align:start;
 }

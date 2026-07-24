@@ -4,7 +4,6 @@
 
 import {useState} from "react";
 import "@/styles/searchBar.css";
-
 interface SearchbarProps {
     onSearch: (query: string) => void;
 }
@@ -28,7 +27,7 @@ export default function Searchbar({onSearch} : SearchbarProps){
             <input type="text" value={valor} onChange={handleChange} placeholder="Buscar por título..."
             className="search-input"aria-label="Buscar libros por título"/>
             {valor && (
-                <button type="button" onClick={handleClear} className="search-clear" aria-label="Limpiar Busqueda"> x </button>
+                <button type="button" onClick={handleClear} className="search-clear" aria-label="Limpiar Busqueda"><i className="bx bx-x-circle" /></button>
             )}
         </div>
     );

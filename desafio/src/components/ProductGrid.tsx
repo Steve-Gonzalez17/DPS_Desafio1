@@ -38,7 +38,7 @@ export default function ProductGrid() {
             <SearchBar onSearch={setQuery} />
 
             <p className="product-count">
-                {filteredBooks.length} de {books.length} libros
+               Mostrando {filteredBooks.length} de {books.length} libros
             </p>
 
             {filteredBooks.length === 0 ? (
