@@ -24,9 +24,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="flex fixed w-full items-center justify-end px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b bg-[#112E81] text-white">
-
-
+            <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-end px-6 md:px-16 lg:px-24 xl:px-32 py-4 bg-[#112E81] text-white">
                 {/* Botón menú móvil */}
                 <button aria-label="Menu" className="sm:hidden" onClick={() => setShowMenu(!showMenu)} >
                     <svg  width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg" >

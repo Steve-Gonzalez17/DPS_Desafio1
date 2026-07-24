@@ -33,11 +33,11 @@ export default function ProductGrid() {
     return (
         <section className="px-6 md:px-12 lg:px-20 py-10">
 
-            <section className="product-section">
+            <section >
 
                 <SearchBar onSearch={setQuery} />
 
-                <p className="product-count">
+                <p className="">
                     Mostrando {filteredBooks.length} de {books.length} libros
                 </p>
 
