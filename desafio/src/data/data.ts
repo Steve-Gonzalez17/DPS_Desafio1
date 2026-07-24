@@ -1,0 +1,85 @@
+import { Product } from "../types/Product";
+
+export const books: Product[] = [
+    {
+        id: 1,
+        title: 'Cien años de soledad',
+        price: 100,
+        image: 'https://images.penguinrandomhouse.com/cover/9780525562443',
+        quantity: 1,
+        summary: "Escrita por Gabriel García Márquez, narra la historia de siete generaciones de la familia Buendía en el pueblo ficticio de Macondo. La novela mezcla la realidad con elementos fantásticos para explorar temas como el incesto, la guerra, el progreso y la fatalidad, culminando con la destrucción del pueblo y la maldición de la estirpe.",
+    },
+    {
+        id: 2,
+        title: 'El señor de los anillos (Trilogía)',
+        price: 190,
+        image: 'https://proassetspdlcom.cdnstatics2.com/usuaris/libros/fotos/358/original/portada_pack-trilogia-el-senor-de-los-anillos_j-r-r-tolkien_202206071544.jpg',
+        quantity: 1,
+        summary: "La trilogía de El Señor de los Anillos narra la épica misión del hobbit Frodo Bolsón para destruir el Anillo Único, derrotar al Señor Oscuro Sauron y salvar la Tierra Media. Esta travesía se divide en tres partes: la formación de un grupo diverso, la división del camino en guerras paralelas y la batalla final por la libertad.",
+    },
+    {
+        id: 3,
+        title: 'Cuentos de Barro',
+        price: 30,
+        image: 'https://www.librosdelaballena.com/wp-content/uploads/2020/05/cuentos-barro-244x300.png',
+        quantity: 1,
+        summary: "Cuentos de barro es un famoso libro del escritor salvadoreño Salarrué que muestra la vida dura, la pobreza y las costumbres del campo en El Salvador. No cuenta historias de héroes, sino la realidad difícil de la gente humilde.",
+    },
+    {
+        id: 4,
+        title: 'Tierra de Infancia',
+        price: 30,
+        image: 'https://assets.isu.pub/document-structure/230605011415-591c5b47dde190303e7de29a0a888041/v1/fa8a209bb2ce609861c6572f117e69f8.jpeg?width=720&quality=85%2C50',
+        quantity: 1,
+        summary: "Tierra de infancia es una obra autobiográfica de la poetisa salvadoreña Claudia Lars, escrita en prosa poética. Relata sus memorias infantiles en las faldas del Volcán de Izalco y el valle de San Antonio. La historia destaca la vida sencilla en el campo, sus raíces familiares y el profundo amor por la naturaleza",
+    },
+    {
+        id: 5,
+        title: 'Harry Potter Pack',
+        price: 390,
+        image: 'https://contentv2.tap-commerce.com/cover/large/9789878000473_1.jpg?id_com=1113',
+        quantity: 1,
+        summary: "El pack de la saga literaria de Harry Potter reúne las siete novelas fantásticas escritas por J. K. Rowling, las cuales narran el crecimiento, los descubrimientos y la batalla final de un joven huérfano contra el mago oscuro Lord Voldemort.Los siete libros del pack",
+    },
+    {
+        id: 6,
+        title: "Don Quijote de la Mancha",
+        price: 120,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz4XKn5gI-yBWO54trIPEvoMvbYREF_IvE31yW0SGhKbUf0oYzc2h9gilN&s=10",
+        quantity: 1,
+        summary: "La obra maestra de Miguel de Cervantes cuenta las aventuras de Alonso Quijano, un hombre que, tras leer demasiados libros de caballería, decide convertirse en caballero andante bajo el nombre de Don Quijote. Acompañado por Sancho Panza, vive innumerables aventuras que mezclan humor, crítica social e idealismo.",
+    },
+    {
+        id: 7,
+        title: "1984",
+        price: 95,
+        image: "https://cdn.kobo.com/book-images/fb0c52e7-c427-4eb3-b5aa-9aafc7efea43/1200/1200/False/AhIbw1TJuje1l6QPMtht5A.jpg",
+        quantity: 1,
+        summary: "La novela distópica 1984 de George Orwell narra la historia de Winston Smith, un funcionario en el opresivo estado de Oceanía. Su trabajo consiste en reescribir la historia y alterar la verdad para adaptarla a la propaganda del líder omnipotente, el Gran Hermano. Cansado de la vigilancia extrema y de la 'Policía del Pensamiento', Winston inicia una rebelión personal, se enamora de Julia y busca unirse a la resistencia.",
+    },
+    {
+        id: 8,
+        title: "El Principito",
+        price: 45,
+        image: "https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/681b63dd7d9dbb4c4ce5ae76_WJlUnXLgNrZqh3HN_u7WMEnTVs1tV0qKwtUkvXJ2JTk.jpeg",
+        quantity: 1,
+        summary: "El Principito narra la historia de un piloto varado en el desierto del Sahara, donde conoce a un misterioso niño proveniente del asteroide B-612. A través de sus conversaciones, el aviador reflexiona sobre la pérdida de la imaginación infantil y la extraña visión que los adultos tienen del mundo.",
+    },
+    {
+        id: 9,
+        title: "El Alquimista",
+        price: 85,
+        image: "https://internacionallibrosyregalos.com/cdn/shop/files/71Y_zLnZJuL._SL1500_990x.jpg?v=1768253584",
+        quantity: 1,
+        summary: "El Alquimista, de Paulo Coelho, narra la historia de Santiago, un joven pastor andaluz que deja su vida rutinaria para buscar un tesoro escondido en las pirámides de Egipto. A través de su viaje por el desierto, descubre el amor, aprende a escuchar a su corazón y comprende que su mayor tesoro siempre estuvo en el lugar de donde partió.",
+    },
+    {
+        id: 10,
+        title: "Orgullo y prejuicio",
+        price: 90,
+        image: "https://m.media-amazon.com/images/I/71wnBzT9WqL._AC_UF1000,1000_QL80_.jpg",
+        quantity: 1,
+        summary: "Jane Austen cuenta la historia de Elizabeth Bennet y el señor Darcy, quienes deben superar sus prejuicios y diferencias sociales para descubrir el verdadero amor. La novela combina romance, crítica social y un retrato de la sociedad inglesa del siglo XIX.",
+    }
+
+];
