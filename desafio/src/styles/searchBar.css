@@ -1,0 +1,45 @@
+/* Estilos de barra de busqueda */
+
+.search-bar {
+  position: relative;
+  max-width: 420px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  /*margin-left: 81.5rem; */
+  display: block;
+}
+ 
+.search-input {
+  width: 100%;
+  padding: 0.6rem 2.25rem 0.6rem 0.9rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+ 
+.search-input:focus {
+  border-color: #8a5a2f;
+}
+ 
+.search-clear {
+  position: absolute;
+  right: -3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #888;
+}
+ 
+.search-clear:hover {
+  color: #8a5a2f;
+}
+
+.product-count{
+  text-align:start;
+}

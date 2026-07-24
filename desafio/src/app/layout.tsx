@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import store from "../redux/store";
 
 import Navbar from "../components/Navbar";
-
+import "boxicons/css/boxicons.min.css";
 export default function RootLayout({
   children,
 }: {

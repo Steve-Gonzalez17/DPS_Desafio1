@@ -23,7 +23,7 @@ export default function ProductCard({
                 </h3>
 
                 <p className="product-price">
-                    ${product.price}
+                    ${product.price.toFixed(2)}
                 </p>
 
                 <button
